@@ -6,6 +6,8 @@ LangChain provides a structured way to manage prompts through the `PromptTemplat
 - A **static prompt** is a fixed string with no placeholders or no dynamic content.
 - Every time it is sent to the model, the same exact text is used.
 - This type of prompt is useful for repetitive tasks where the query doesn’t depend on external variables, such as asking the model to summarize a fixed paragraph or provide a definition.
+- Example - [Static Prompt Code](1.static_prompt.py)
+
 
 ## **2. Dynamic Prompt with a Single Variable**
 
